@@ -4,6 +4,7 @@ import cv2
 
 drone = tello.Tello()
 drone.connect()
+drone.streamon()
 
 print(drone.get_battery())
 
